@@ -1,0 +1,49 @@
+---
+title:       Overview
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+---
+<script type="text/javascript">
+	$(function() { $('#slideshow1').cycle(); });
+</script>
+
+<div id="slideshow1" class="slideshow">
+    <img src="images/slideshow1-1.jpg" alt="Southern Hotel Museum"/>
+    <img src="images/slideshow1-2.jpg" alt="Southern Hotel Museum"/>
+    <img src="images/slideshow1-3.jpg" alt="Southern Hotel Museum"/>
+		<img src="images/slideshow1-4.jpg" alt="Southern Hotel Museum"/>
+		<img src="images/slideshow1-5.jpg" alt="Southern Hotel Museum"/>
+		<img src="images/slideshow1-6.jpg" alt="Southern Hotel Museum"/>
+		<img src="images/slideshow1-7.jpg" alt="Southern Hotel Museum"/>
+		<img src="images/slideshow1-8.jpg" alt="Southern Hotel Museum"/>
+</div>
+
+<a href="/appointment.html"> <img src="/images/museum-hours.gif" class="museum-hours"></a>
+
+<h2><%= h(@page.title)%></h2>
+
+<p>
+The Southern Hotel is one of the three oldest preserved buildings in Perris, CA, and the oldest commercial building still standing. It was built in 1886 by Bernardo and Marcellina Bernasconi, both swiss immigrants .
+</p> 
+
+<p>
+The Hotel was primarily used as a headquarters for minors, a stagestop, and a meeting place for many people entering into town. Once the Bernasconis stopped leasing out the hotel, the family eventually took it over as their home in 1901 in order for the Bernasconi children to receive an esteemed education in town.
+</p>
+
+<p>
+Matilda Bernasconi, the eldest daughter of the Bernasconi children, was the last to live in the hotel as a private residence. Once she died in 1982, the hotel became abandoned, was declared a public nuisance and ablaze in two back to back fires, almost burning down. 
+</p>
+
+<p>
+In 1990, brothers, Leon E. and John D. Motte completely restored the hotel, making it look like new again. As a result of their hard work, it was dedicated to the National Registrar of Historical Places.
+</p>
+
+
+<img src="/images/hotel-1888.jpg" class="align-left"> 
+<img src="/images/hotel-1990s.jpg" class="align-left">
+
+<div id="previous-next-nav">
+	<%= link_to 'Next', '/bernasconi-family.html' %>
+</div>
+

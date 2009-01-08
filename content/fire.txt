@@ -1,0 +1,21 @@
+---
+title:      Hotel Fire
+created_at: 2009-01-08 10:53:26.697620 -08:00
+filter:
+  - erb
+---
+<h2><%= h(@page.title)%></h2>
+
+<img src="/images/hotel-fire1.jpg" height="220" class="align-left"> <img src="/images/hotel-fire0.jpg" class="align-left" height="220"> 
+
+<p>
+The Southern Hotel was declared an eyesore and public nuisance in 1984. 
+</p>
+
+<p>
+In 1987 it was damaged by two back to back arson fires. The first blaze on March 29th broke out about 11am, damaging the back side of the hotel, which included the wine cellar and the add on kitchen. The second fire broke out in the front of the building at 8 pm the following day, spreading quickly to the corners of the balcony.  
+</p>
+
+<div id="previous-next-nav">
+	<%= link_to 'Prev', '/bernasconi-family.html' %> | <%= link_to 'Next', '/timeline.html' %>
+</div>

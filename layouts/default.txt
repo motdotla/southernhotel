@@ -1,0 +1,59 @@
+---
+extension: html
+filter:    erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Southern Hotel of Perris  | <%= @page.title %></title>
+  <meta name="author" content="<%= @page.author %>" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="all" />
+	<script type="text/javascript" src="/javascripts/jquery.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.cycle.lite.js"></script>
+</head>
+<body>
+
+	<div id="mast"><div class="wrap">
+		<div id="logo"><a href="/">Perris Southern Hotel</a></div>
+
+	</div></div><!-- /mast -->
+
+	<div id="page"><div class="wrap">
+		<div id="content">
+	    <%#= message[:notice] %>
+			<div id="nav">
+				<%= link_to "Overview", "/index.html" %> &nbsp;&nbsp;&raquo;&nbsp;&nbsp;
+				<%= link_to "Bernasconi Family", "/bernasconi-family.html" %> &nbsp;&nbsp;&raquo;&nbsp;&nbsp;
+				<%= link_to "Hotel Fire", "/fire.html" %> &nbsp;&nbsp;&raquo;&nbsp;&nbsp;
+				<%= link_to "Timeline", "/timeline.html" %>
+			</div>
+			
+	    <%= @content %>
+		</div><!-- /content -->
+	</div></div><!-- /page -->
+
+	<div id="foot"><div class="wrap">
+		<div id="about">
+			<h3>Who are we?</h3>
+			<p>JEM Foundation is a 501(c)(3) non-profit organization involved in Perris, California and the nearby areas surrounding Perris. Currently we are finishing completion of the Southern Hotel Museum and beginning plans for a second museum.</p>
+		</div>
+		<div id="contact">
+			<h3>Contact Us</h3>
+			<p>
+				JEM Foundation<br />
+				445 South D St<br />
+				Perris, CA 92570<br />
+				951.657.4281<br />
+				<%= link_to "<em>sarahmotte@gmail.com</em>", "mailto:sarahmotte@gmail.com" %>
+			</p>
+		</div>
+		<div class="clearer"></div>
+		<p id="copyright">&copy; Copyright 2008 JEM Foundation</p>
+	</div></div>
+	
+</body>
+</html>
