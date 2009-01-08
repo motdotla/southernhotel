@@ -24,19 +24,19 @@ filter:
 <h2><%= h(@page.title)%></h2>
 
 <p>
-The Southern Hotel is one of the three oldest preserved buildings in Perris, CA, and the oldest commercial building still standing. It was built in 1886 by Bernardo and Marcellina Bernasconi, both swiss immigrants .
+The Southern Hotel is the oldest preserved commercial building still standing in Perris, California.
 </p> 
 
 <p>
-The Hotel was primarily used as a headquarters for minors, a stagestop, and a meeting place for many people entering into town. Once the Bernasconis stopped leasing out the hotel, the family eventually took it over as their home in 1901 in order for the Bernasconi children to receive an esteemed education in town.
+In 1886, swiss immigrants, Bernardo and Marcellina Bernasconi completed construction of the Southern Hotel. It was the first hotel in Perris to readily meet the needs of travelers and miners in the San Jacinto Valley. In 1901, in order to be closer to the schools, Marcellina converted the hotel to the family’s weekday private residence, moving in with her six children.
 </p>
 
 <p>
-Matilda Bernasconi, the eldest daughter of the Bernasconi children, was the last to live in the hotel as a private residence. Once she died in 1982, the hotel became abandoned, was declared a public nuisance and ablaze in two back to back fires, almost burning down. 
+Matilda, the eldest daughter of the Bernasconi children was the last to live in the hotel as a private residence. Once she passed away in 1982, the hotel became abandoned, was declared an eyesore, public nuisance, and set ablaze in two back-to-back arson fires.
 </p>
 
 <p>
-In 1990, brothers, Leon E. and John D. Motte completely restored the hotel, making it look like new again. As a result of their hard work, it was dedicated to the National Registrar of Historical Places.
+In 1990, brothers, Leon E. and John D. Motte purchased the Southern Hotel’s property, restoring it like new again. As a result of their hard work, it was dedicated to the National Registrar of Historical Places.
 </p>
 
 
