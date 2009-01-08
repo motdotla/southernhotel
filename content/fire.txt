@@ -8,6 +8,8 @@ filter:
 
 <img src="/images/hotel-fire1.jpg" height="220" class="align-left"> <img src="/images/hotel-fire0.jpg" class="align-left" height="220"> 
 
+<div class="clearer"></div>
+
 <p>
 In 1984, the Southern Hotel was declared an eyesore and public nuisance.
 </p>
