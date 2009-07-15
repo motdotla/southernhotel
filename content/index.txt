@@ -4,20 +4,7 @@ created_at:  2008-08-02 14:06:40.000000 -06:00
 filter:
   - erb
 ---
-<script type="text/javascript">
-	$(function() { $('#slideshow1').cycle(); });
-</script>
-
-<div id="slideshow1" class="slideshow">
-    <img src="images/slideshow1-1.jpg" alt="Southern Hotel Museum"/>
-    <img src="images/slideshow1-2.jpg" alt="Southern Hotel Museum"/>
-    <img src="images/slideshow1-3.jpg" alt="Southern Hotel Museum"/>
-		<img src="images/slideshow1-4.jpg" alt="Southern Hotel Museum"/>
-		<img src="images/slideshow1-5.jpg" alt="Southern Hotel Museum"/>
-		<img src="images/slideshow1-6.jpg" alt="Southern Hotel Museum"/>
-		<img src="images/slideshow1-7.jpg" alt="Southern Hotel Museum"/>
-		<img src="images/slideshow1-8.jpg" alt="Southern Hotel Museum"/>
-</div>
+<object width="500" height="281"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5603085&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5603085&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="500" height="281"></embed></object>
 
 <a href="/appointment.html"> <img src="/images/museum-hours.gif" class="museum-hours"></a>
 
